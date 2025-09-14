@@ -7,10 +7,10 @@ private:
     int age;
     
 public:
-    // Construtor padrão (adicionado)
+    
     Human() : name("Unknown"), age(0) {}
     
-    // Construtor com parâmetros
+  
     Human(string n, int a) : name(n), age(a) {}
     
     void setName(string n) { name = n; }
@@ -22,10 +22,10 @@ public:
 };
 
 int main() {
-    Human person1; // Usando o construtor padrão
+    Human person1;
     person1.introduce();
     
-    Human person2("Alice", 30); // Usando o construtor com parâmetros
+    Human person2("Alice", 30);
     person2.introduce();        
     return 0;
 }
