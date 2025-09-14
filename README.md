@@ -1,6 +1,1 @@
-# Cpp-study
-# Cpp-study
-# Cpp-study
-# Cpp-study
-# Cpp-study
-# Cpp-study
+This is my repository for C++ stady
