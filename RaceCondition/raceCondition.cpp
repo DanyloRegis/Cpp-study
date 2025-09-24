@@ -18,10 +18,10 @@ void* increment_counter(void* arg) {
         turn = other;
         
         while (flag[other] && turn == other) {
-            // Busy wait
+            // Fica na espera
         }
         
-        // Seção crítica
+        // Parte critica
         counter++;
         
         flag[thread_id] = false;
@@ -43,3 +43,8 @@ int main() {
     
     return 0;
 }
+
+// Toda forma da erro pq a thread pode ser interrompida a qualquer momento
+// A solução de Peterson é uma solução clássica para o problema de exclusão mútua
+// Ela garante que apenas uma thread possa acessar a seção crítica de cada vez
+// e evita condições de corrida sem a necessidade de primitivas de sincronização mais complexas.
