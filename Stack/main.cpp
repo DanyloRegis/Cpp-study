@@ -30,6 +30,13 @@ int main() {
     stack01.print();
     stack01.push('B');
     stack01.print();
+    stack01.push('C');
+    stack01.print();
+    stack01.pop();
+    stack01.print();
+    stack01.pop();
+    stack01.print();
+    stack01.pop();
 
     return 0;
 }
