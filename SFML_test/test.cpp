@@ -18,7 +18,7 @@ int main() {
     Sprite triforce(texture);
 
     // Select the part of the texture (x, y, width, height)
-    triforce.setTextureRect(IntRect(530, 400, 64, 64));
+    triforce.setTextureRect(IntRect(600, 400, 64, 64));
     triforce.setPosition(200, 200);
 
     // Main game loop
